@@ -16,7 +16,7 @@ public class subset_or_not {
   }
   public static void main(String[] args) {
     
-    System.out.println("Find subset or not using hash set");
+    System.out.println("[Find subset or not using hash set]");
     System.out.println("Time Comp: \nInsertion: O(N)\nLookup: O(N)\nOverall: O(N+M)");
     int arr1[] = {11, 1, 13, 21, 3, 7};
     int arr2[] = {11, 3, 7, 1};
