@@ -16,6 +16,8 @@ bool is_subset(int arr1[], int arr2[], int s1, int s2){
 }
 
 int main(){
+  std::cout << "[Find subset or not using hash set]" << std::endl;
+  std::cout << "Time Comp: \nInsertion: O(N)\nLookup: O(N)\nOverall: O(N+M)" << std::endl;
   int arr1[] = {11, 1, 13, 21, 3, 7};
   int arr2[] = {11, 3, 7, 1};
   
